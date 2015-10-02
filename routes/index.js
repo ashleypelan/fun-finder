@@ -3,7 +3,6 @@ var router = express.Router();
 var categorize = require('./../lib/javascripts/categories.js');
 var mongo = require('../lib/javascripts/mongo.js');
 
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
   if(req.session.username){
@@ -106,5 +105,6 @@ router.post('/remove/:id', function(req, res, next){
     res.redirect('/favorites')
   })
 })
+
 
 module.exports = router;

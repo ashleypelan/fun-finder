@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+.backHomeLink {
+  size: 20px;
+}
+
 header {
   height: auto;
 }
@@ -177,14 +181,6 @@ main .container {
   color: #404E5C;
 }
 
-.row .label {
-  /*margin-top: 100px;*/
-}
-
-/*.row-button .button button {
-  margin-top: 100px;
-}*/
-
 .row {
   margin-top: 100px;
   clear: both;
@@ -199,6 +195,10 @@ main .container {
   text-align: center;
   font-size: 3em;
   color: #064E86;
+}
+.row-updated-link {
+  font-size: 1em;
+  padding-left: 25px;
 }
 
 .row p {
