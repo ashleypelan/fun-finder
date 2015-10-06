@@ -25,6 +25,7 @@ var randomizer = function (events, len) {
       trigger ++;
     }
   }
+
   var specificEvent = events[randomInterest].categories[randomCat];
 
   if(trigger === 0 && specificEvent.titles[randomEvent]) {
@@ -43,6 +44,7 @@ var randomizer = function (events, len) {
 
     console.log(typeof specificEvent.website[randomEvent]);
     console.log(specificEvent.venueAddress[randomEvent])
+
     favs = {title: specificEvent.titles[randomEvent], description:   specificEvent.description[randomEvent].replace("http://","" ).replace("www", ""),
             time: specificEvent.startTime[randomEvent], address: specificEvent.venueAddress[randomEvent],
             category: category};
@@ -62,6 +64,13 @@ var randomizer = function (events, len) {
           title: 'Hello World!'
       });
     }
+
+    //test to see if this func fixes second load map issue
+    //can't check, does not work locally or pushing to heroku for me -- ashley
+    // $timeout(function() {
+    //   google.maps.events.trigger(map, 'resize');
+    // });
+
     console.log(duplicateCheck.length)
     if(duplicateCheck.length === 1) {
       google.maps.event.addDomListener(window, 'load', initialize);

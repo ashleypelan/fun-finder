@@ -1,0 +1,168 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/4.1.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose readDependencies loading dependencies from /Users/ashley/workspace/fun-finder/package.json
+5 verbose install where, deps [ '/Users/ashley/workspace/fun-finder',
+5 verbose install   [ 'bcrypt',
+5 verbose install     'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'cookie-session',
+5 verbose install     'date-format-lite',
+5 verbose install     'debug',
+5 verbose install     'dotenv',
+5 verbose install     'express',
+5 verbose install     'jade',
+5 verbose install     'mongoose',
+5 verbose install     'monk',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon',
+5 verbose install     'underscore.string',
+5 verbose install     'unirest' ] ]
+6 verbose install where, peers [ '/Users/ashley/workspace/fun-finder', [] ]
+7 verbose installManyTop reading for lifecycle /Users/ashley/workspace/fun-finder/package.json
+8 info preinstall fun-finder@0.0.0
+9 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/bcrypt/package.json
+10 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/body-parser/package.json
+11 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/cookie-parser/package.json
+12 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/cookie-session/package.json
+13 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/date-format-lite/package.json
+14 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/debug/package.json
+15 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/dotenv/package.json
+16 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/express/package.json
+17 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/jade/package.json
+18 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/mongoose/package.json
+19 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/monk/package.json
+20 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/morgan/package.json
+21 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/node-sass/package.json
+22 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/sass/package.json
+23 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/serve-favicon/package.json
+24 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/underscore.string/package.json
+25 verbose installManyTop reading scoped package data from /Users/ashley/workspace/fun-finder/node_modules/unirest/package.json
+26 info package.json monk@1.0.1 No license field.
+27 info package.json sass@0.5.0 No repository field.
+28 info package.json sass@0.5.0 No license field.
+29 verbose readDependencies loading dependencies from /Users/ashley/workspace/fun-finder/package.json
+30 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/bcrypt/package.json
+31 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/body-parser/package.json
+32 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/cookie-parser/package.json
+33 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/cookie-session/package.json
+34 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/date-format-lite/package.json
+35 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/debug/package.json
+36 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/dotenv/package.json
+37 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/express/package.json
+38 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/jade/package.json
+39 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/mongoose/package.json
+40 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/monk/package.json
+41 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/morgan/package.json
+42 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/node-sass/package.json
+43 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/sass/package.json
+44 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/serve-favicon/package.json
+45 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/underscore.string/package.json
+46 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/unirest/package.json
+47 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/.bin/jade/package.json
+48 verbose targetResolver reading package data from /Users/ashley/workspace/fun-finder/node_modules/.bin/node-sass/package.json
+49 verbose already installed skipping morgan@~1.5.3 /Users/ashley/workspace/fun-finder
+50 verbose already installed skipping serve-favicon@~2.2.1 /Users/ashley/workspace/fun-finder
+51 verbose already installed skipping underscore.string@^3.1.1 /Users/ashley/workspace/fun-finder
+52 verbose already installed skipping unirest@^0.4.2 /Users/ashley/workspace/fun-finder
+53 verbose already installed skipping bcrypt@^0.8.4 /Users/ashley/workspace/fun-finder
+54 verbose already installed skipping body-parser@~1.12.4 /Users/ashley/workspace/fun-finder
+55 verbose already installed skipping cookie-parser@~1.3.5 /Users/ashley/workspace/fun-finder
+56 verbose already installed skipping cookie-session@^1.2.0 /Users/ashley/workspace/fun-finder
+57 verbose already installed skipping date-format-lite@^0.7.4 /Users/ashley/workspace/fun-finder
+58 verbose already installed skipping debug@~2.2.0 /Users/ashley/workspace/fun-finder
+59 verbose already installed skipping dotenv@^1.2.0 /Users/ashley/workspace/fun-finder
+60 verbose already installed skipping express@~4.12.4 /Users/ashley/workspace/fun-finder
+61 verbose already installed skipping jade@~1.9.2 /Users/ashley/workspace/fun-finder
+62 verbose already installed skipping mongoose@^4.1.1 /Users/ashley/workspace/fun-finder
+63 verbose already installed skipping monk@^1.0.1 /Users/ashley/workspace/fun-finder
+64 silly install resolved []
+65 info build /Users/ashley/workspace/fun-finder
+66 info linkStuff fun-finder@0.0.0
+67 silly linkStuff fun-finder@0.0.0 has /Users/ashley/workspace as its parent node_modules
+68 verbose linkBins fun-finder@0.0.0
+69 verbose linkMans fun-finder@0.0.0
+70 verbose rebuildBundles fun-finder@0.0.0
+71 verbose rebuildBundles [ '.bin',
+71 verbose rebuildBundles   'bcrypt',
+71 verbose rebuildBundles   'body-parser',
+71 verbose rebuildBundles   'cookie-parser',
+71 verbose rebuildBundles   'cookie-session',
+71 verbose rebuildBundles   'date-format-lite',
+71 verbose rebuildBundles   'debug',
+71 verbose rebuildBundles   'dotenv',
+71 verbose rebuildBundles   'express',
+71 verbose rebuildBundles   'jade',
+71 verbose rebuildBundles   'mongoose',
+71 verbose rebuildBundles   'monk',
+71 verbose rebuildBundles   'morgan',
+71 verbose rebuildBundles   'node-sass',
+71 verbose rebuildBundles   'sass',
+71 verbose rebuildBundles   'serve-favicon',
+71 verbose rebuildBundles   'underscore.string',
+71 verbose rebuildBundles   'unirest' ]
+72 verbose rebuild bundle /Users/ashley/workspace/fun-finder/node_modules/node-sass
+73 info build /Users/ashley/workspace/fun-finder/node_modules/node-sass
+74 info preinstall node-sass@3.2.0
+75 info linkStuff node-sass@3.2.0
+76 silly linkStuff node-sass@3.2.0 has /Users/ashley/workspace/fun-finder/node_modules as its parent node_modules
+77 verbose linkBins node-sass@3.2.0
+78 verbose link bins [ { 'node-sass': 'bin/node-sass' },
+78 verbose link bins   '/Users/ashley/workspace/fun-finder/node_modules/.bin',
+78 verbose link bins   false ]
+79 verbose linkMans node-sass@3.2.0
+80 verbose rebuildBundles node-sass@3.2.0
+81 verbose rebuildBundles [ '.bin',
+81 verbose rebuildBundles   'async-foreach',
+81 verbose rebuildBundles   'chalk',
+81 verbose rebuildBundles   'gaze',
+81 verbose rebuildBundles   'get-stdin',
+81 verbose rebuildBundles   'glob',
+81 verbose rebuildBundles   'meow',
+81 verbose rebuildBundles   'mkdirp',
+81 verbose rebuildBundles   'nan',
+81 verbose rebuildBundles   'npmconf',
+81 verbose rebuildBundles   'pangyp',
+81 verbose rebuildBundles   'request',
+81 verbose rebuildBundles   'sass-graph' ]
+82 silly gentlyRm /Users/ashley/workspace/fun-finder/node_modules/.bin/node-sass is being purged
+83 verbose gentlyRm don't care about contents; nuking /Users/ashley/workspace/fun-finder/node_modules/.bin/node-sass
+84 silly vacuum-fs purging /Users/ashley/workspace/fun-finder/node_modules/.bin/node-sass
+85 silly vacuum-fs quitting because other entries in /Users/ashley/workspace/fun-finder/node_modules/.bin
+86 info install node-sass@3.2.0
+87 verbose unsafe-perm in lifecycle true
+88 info postinstall node-sass@3.2.0
+89 verbose unsafe-perm in lifecycle true
+90 info node-sass@3.2.0 Failed to exec postinstall script
+91 verbose stack Error: node-sass@3.2.0 postinstall: `node scripts/build.js`
+91 verbose stack Exit status 1
+91 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+91 verbose stack     at emitTwo (events.js:87:13)
+91 verbose stack     at EventEmitter.emit (events.js:172:7)
+91 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+91 verbose stack     at emitTwo (events.js:87:13)
+91 verbose stack     at ChildProcess.emit (events.js:172:7)
+91 verbose stack     at maybeClose (internal/child_process.js:817:16)
+91 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+92 verbose pkgid node-sass@3.2.0
+93 verbose cwd /Users/ashley/workspace/fun-finder
+94 error Darwin 15.0.0
+95 error argv "/usr/local/Cellar/node/4.1.1/bin/node" "/usr/local/bin/npm" "install" "--save"
+96 error node v4.1.1
+97 error npm  v2.14.4
+98 error code ELIFECYCLE
+99 error node-sass@3.2.0 postinstall: `node scripts/build.js`
+99 error Exit status 1
+100 error Failed at the node-sass@3.2.0 postinstall script 'node scripts/build.js'.
+100 error This is most likely a problem with the node-sass package,
+100 error not with npm itself.
+100 error Tell the author that this fails on your system:
+100 error     node scripts/build.js
+100 error You can get their info via:
+100 error     npm owner ls node-sass
+100 error There is likely additional logging output above.
+101 verbose exit [ 1, true ]
